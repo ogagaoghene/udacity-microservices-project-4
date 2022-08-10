@@ -9,6 +9,6 @@ docker build --tag=predictor .
 docker images
 
 # Step 3: 
-docker run predicotor -p 80:80
+docker run -p 8080:80 predictor
 
 

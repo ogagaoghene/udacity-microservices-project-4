@@ -5,13 +5,13 @@
 
 # Step 1:
 # Create dockerpath
-dockerpath=psnx/udacity-predictor
-tag=ver.1.0
+dockerpath=987924/predictor
+tag=predictor
 # Step 2:  
 # Authenticate & tag
-docker login
+docker login 
 docker system info | grep Registry
 echo "Docker ID and Image: $dockerpath tag: $tag"
 docker tag $dockerpath $dockerpath:$tag
 # Step 3:
-docker push $dockerpath:$tag
+docker image push $dockerpath:$tag
