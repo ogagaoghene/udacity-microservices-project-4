@@ -1,5 +1,3 @@
-[![CircleCI](https://circleci.com/gh/psnx/udacity-microservices.svg?style=shield&circle-token=c73bf925b7c863c1cf3f37b2daac63bfc521a846)](https://circleci.com/gh/psnx/udacity-microservices)
-
 ## What is this?
 
 This repo´s only purpose is to demonstrate how to containerize a simple project with `docker`or `kubernetes`. 
@@ -15,7 +13,7 @@ In this repo a pre-trained, `sklearn` model is included that has been trained to
 
 Linux, Mac and Windows 10 WSL:
 ```bash
-$ python -m venv venv
+$ python -m venv ~/.devops/Scripts/activate
 $ source ~/.devops/Scripts/activate
 (.devops)$ make install
 ```
