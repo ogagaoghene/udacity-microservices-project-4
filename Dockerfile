@@ -6,3 +6,4 @@ COPY ./model_data ./model_data
 RUN pip install -r requirements.txt --no-cache-dir
 EXPOSE 80
 ENTRYPOINT ["python", "/app/app.py"]
+
