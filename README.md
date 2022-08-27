@@ -1,6 +1,8 @@
+[![CircleCI](https://circleci.com/gh/ogagaoghene/udacity-microservices.svg?style=https://img.shields.io/badge/-PASSED-green)](
+https://app.circleci.com/pipelines/github/ogagaoghene/udacity-microservices-project-4) 
 ## What is this?
 
-This repo´s only purpose is to demonstrate how to containerize a simple project with `docker`or `kubernetes`. 
+The primary purpose of this project is to demonstrate how to containerize a machine learning project with `docker`and `kubernetes`. 
 
 It is made as part of the curriculum of Udacity's Cloud DevOps Engineer Nanodegree Program, project Operationalize a Machine Learning Microservice API.
 This work is based on [Udacity's starter code](https://github.com/udacity/DevOps_Microservices).   
@@ -13,8 +15,8 @@ In this repo a pre-trained, `sklearn` model is included that has been trained to
 
 Linux, Mac and Windows 10 WSL:
 ```bash
-$ python -m venv ~/.devops/Scripts/activate
-$ source ~/.devops/Scripts/activate
+$ python -m venv ~/.devops/bin/activate
+$ source ~/.devops/bin/activate
 (.devops)$ make install
 ```
 ## Usage
