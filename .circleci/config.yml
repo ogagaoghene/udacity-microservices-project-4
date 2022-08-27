@@ -28,7 +28,7 @@ jobs:
             - ~/.devops
       - 
         run: 
-          command: ". ~/.devops/Scripts/activate\n\
+          command: ". ~/.devops/bin/activate\n\
               make lint \n"
           name: "run lint"
     working_directory: ~/repo
