@@ -5,9 +5,6 @@ echo "Port: $PORT"
 
 # POST method predict
 curl -d '{
-   "CHAS":{
-      "0":0
-   },
    "RM":{
       "0":6.575
    },
@@ -22,6 +19,9 @@ curl -d '{
    },
    "LSTAT":{
       "0":4.98
+   },
+   "MEDV":{
+      "0":24.0
    }
 }'\
      -H "Content-Type: application/json" \
