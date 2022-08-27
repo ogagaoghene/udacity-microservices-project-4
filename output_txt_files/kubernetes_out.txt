@@ -2,7 +2,7 @@
 Port: 8080
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-100   246  100    48  100   198     24    102  0:00:02  0:00:01  0:00:01   127{
+100   249  100    48  100   201     28    120  0:00:01  0:00:01 --:--:--   149{
   "prediction": [
     20.35373177134412
   ]
