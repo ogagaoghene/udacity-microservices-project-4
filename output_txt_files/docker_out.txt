@@ -8,7 +8,7 @@
    CHAS     RM    TAX  PTRATIO      B  LSTAT
 0     0  6.575  296.0     15.3  396.9   4.98
 [2022-08-27 17:27:06,776] INFO in app: prediction: [20.35373177134412]
-172.17.0.1 - - [08/Aug/2022 15:27:18] "POST /predict HTTP/1.1" 200 -
+172.17.0.1 - - [27/Aug/2022 15:27:18] "POST /predict HTTP/1.1" 200 -
 
 Port: 8080
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
