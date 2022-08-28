@@ -1,5 +1,5 @@
-[![CircleCI](https://circleci.com/gh/ogagaoghene/udacity-microservices.svg?style=https://img.shields.io/badge/-PASSED-green)](
-https://app.circleci.com/pipelines/github/ogagaoghene/udacity-microservices-project-4) 
+[![CircleCI](https://circleci.com/gh/ogagaoghene/udacity-microservices-project-4.svg?style=svg)](https://circleci.com/gh/ogagaoghene/udacity-microservices-project-4)
+
 ## What is this?
 
 The primary purpose of this project is to demonstrate how to containerize a machine learning project with `docker`and `kubernetes`. 
